@@ -1,9 +1,14 @@
-#hero{
+body{
+    background-color: black;
+}
+
+#hero {
     min-height: 100vh;
     position: relative;
 
 }
-video{
+
+video {
     position: absolute;
     top: 0;
     left: 0;
@@ -11,17 +16,19 @@ video{
     height: 100%;
     object-fit: cover;
 }
-.capa{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: #1c1c1c;
-opacity: 0.5;
-mix-blend-mode: overlay;
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1c;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
 }
-.promo{
+
+.promo {
     padding-top: 0;
     height: 100vh;
     display: flex;
@@ -33,20 +40,23 @@ mix-blend-mode: overlay;
     position: relative;
     z-index: 2;
 }
-.promo h1{
+
+.promo h1 {
     font-size: 60px;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
 }
-.promo p{
+
+.promo p {
     font-size: 25px;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-.promo button{
+
+.promo button {
     margin-top: 20px;
     padding: 15px 35px;
     font-size: 18px;
@@ -57,11 +67,13 @@ mix-blend-mode: overlay;
     font-weight: bold;
     transition: all 0.3s ease;
 }
-.promo button:hover{
+
+.promo button:hover {
     background-color: aqua;
     transform: scale(1.05);
 }
-header{
+
+header {
     position: absolute;
     top: 0cap;
     width: 100%;
@@ -71,21 +83,32 @@ header{
     align-items: center;
     padding: 20px 50px;
 }
-.logo{
+
+.logo {
     color: white;
     font-size: 24px;
     font-weight: bold;
     margin-left: 30px;
 
 }
-nav ul{
+
+nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
-nav ul li{
+
+nav ul li {
     text-decoration: none;
     color: white;
     font-size: 18px;
     transition: all 0.3s ease;
+}
+
+footer {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
 }
