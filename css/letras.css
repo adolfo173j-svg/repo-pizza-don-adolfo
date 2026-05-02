@@ -66,6 +66,7 @@ video {
     cursor: pointer;
     font-weight: bold;
     transition: all 0.3s ease;
+    border-radius: 50px;
 }
 
 .promo button:hover {
