@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos en el Carrito</title>
+    <link rel="stylesheet" href="../carrito CSS/carrito.css">
+    <link rel="shortcut icon" href="../imagen/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    
+    <video autoplay muted loop id="video-fondo">
+    <source src="../video/PIZZA-CARRITO.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <a href="../menu HTML/menu.html">Volver al Menu</a>
+        <h1>TU CARRITO</h1>
+    </header>
+
+    <section id="productos-carrito">
+        <div class="producto-item">
+            <img src="../imagen/Pizza Hawaiana.jpg" alt="producto">
+            <div class="producto-info">
+                <h2>PIZZA HAWAIANA</h2>
+                <p>$20.000</p>
+            </div>
+            <button class="btn-eliminar">Eliminar</button>
+        </div>
+    </section>
+
+    <section id="resumen">
+        <h2>Resumen del Pedido</h2>
+        <p>Subtotal: <span id="subtotal">$0</span></p>
+        <p>Domicilio: <span id="domicilio">$0</span></p>
+        <h3>Total: <span id="total">$0</span></h3>
+        <button class="btn-confirmar">Confirmar Pedido</button>
+    </section>
+
+</body>
+
+</html>
