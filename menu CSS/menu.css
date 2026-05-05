@@ -34,6 +34,7 @@
     font-family: Georgia, serif;
     font-weight: bold;
     font-size: 14px;
+    z-index: 10;
 }
 
 .btn-inicio:hover {
@@ -85,28 +86,55 @@
     background-color: white;
     padding: 16px;
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .precio {
     color: red;
     font-size: 20px;
     font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
 }
 
-button {
+.btn-ordenar {
+    display: block;
     width: 100%;
     padding: 10px;
     background: #ff0000;
     color: white;
-    border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8px;
+    box-sizing: border-box;
 }
 
-button:hover {
+.btn-ordenar:hover {
     background-color: #ff4500;
     transform: scale(1.05);
+}
+
+.btn-carrito {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #d40c0c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-size: 14px;
+    z-index: 10;
+}
+
+.btn-carrito:hover {
+    background-color: #ff0000;
 }
 
 .grupo {

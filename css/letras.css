@@ -57,7 +57,7 @@ video {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.promo button {
+.promo a {
     margin-top: 20px;
     padding: 15px 35px;
     font-size: 18px;
@@ -68,9 +68,10 @@ video {
     font-weight: bold;
     transition: all 0.3s ease;
     border-radius: 50px;
+    text-decoration: none;
 }
 
-.promo button:hover {
+.promo a:hover {
     background-color: aqua;
     transform: scale(1.05);
 }
