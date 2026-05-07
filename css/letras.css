@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+}
+
+#hero {
+    min-height: 100vh;
+    position: relative;
+
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1c;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.promo {
+  padding-top: 35vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  z-index: 3;
+}
+
+.promo h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.promo p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.promo a {
+    margin-top: 20px;
+    padding: 15px 35px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.promo a:hover {
+    background-color: aqua;
+    transform: scale(1.05);
+}
+
+header {
+    position: absolute;
+    top: 0cap;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 30px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+footer {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  max-width: 700px;
+  padding: 10px 0;
+  margin-top: 5px
+}
+
+.elemento {
+  flex: 1 0 auto;
+  margin: 0 10px;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.elemento img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
